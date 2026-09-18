@@ -1,0 +1,15 @@
+{
+  "name": "@quilt/exam-integrity-notepad",
+  "version": "0.1.0",
+  "description": "Hash-chained exam notepad with append-only cells. Proctor verifies the chain without surveillance. Quilt substrate.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "demo": "node demo.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": ["exam", "integrity", "quilt", "subleq", "merkle"],
+  "author": "Mavis",
+  "license": "MIT"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@quilt/portable-inventory-guardian",
+  "version": "0.1.0",
+  "description": "Offline inventory guardian for mobile food vendors. Cells = bins, lattice tracks expiration.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "demo": "node demo.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": ["inventory", "offline", "quilt", "subleq", "food"],
+  "author": "Mavis",
+  "license": "MIT"
+}

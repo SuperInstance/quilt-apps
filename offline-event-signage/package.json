@@ -1,0 +1,16 @@
+{
+  "name": "@quilt/offline-event-signage",
+  "version": "0.1.0",
+  "description": "Offline event signage grid for small venues. Quilt lattice — each LED pixel is a cell. Bluetooth-updated, no Wi-Fi needed.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "demo": "node demo.js",
+    "test": "node --test test/*.test.js",
+    "demo:ascii": "node demo-ascii.js"
+  },
+  "keywords": ["signage", "offline", "quilt", "subleq", "events"],
+  "author": "Mavis",
+  "license": "MIT"
+}
